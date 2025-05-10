@@ -1,0 +1,72 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    transition: color 0.3s ease;
+}
+
+h2 {
+    transition: color 0.3s ease;
+}
+
+h3{
+    transition: color 0.3s ease;
+}
+
+ h4 {
+    transition: color 0.3s ease;
+}
+
+h5 {
+    transition: color 0.3s ease;
+}
+
+p {
+    transition: color 0.3s ease;
+}
+
+.nav-link {
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ffc107;
+}
+
+.square-profile {
+    border-radius: 30px;
+    transition: transform 0.3s ease;
+}
+
+.square-profile:hover {
+    transform: scale(1.05);
+    box-shadow:20px rgba(255, 255, 255, 0.2);
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.btn-outline-light {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-light:hover {
+    background-color: #ffc107;
+    color: #000;
+}
+
+.footer .nav {
+    display: flex;
+    align-items: center; 
+}
+
+.footer .nav-link:hover {
+    color: #ffc107;
+}
